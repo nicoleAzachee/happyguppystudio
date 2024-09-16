@@ -108,3 +108,32 @@ button {
     max-width: 90%;
   }
 }
+
+/* General Button Style */
+.btn {
+  background-color: #ff9933; /* Amazon's primary color for a familiar look */
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cc7a29; /* Darker shade for hover effect */
+}
+
+/* Specific style for Buy Now button */
+.buy-now {
+  margin-top: 20px;
+  background-color: #ff9900; /* Amazon's button color */
+}
+
+.buy-now:hover {
+  background-color: #e68a00; /* Darker on hover */
+}
