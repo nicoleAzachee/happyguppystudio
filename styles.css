@@ -5,9 +5,19 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f4f9ff;
   color: #333;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; /* Regular */
 }
 
 header {
